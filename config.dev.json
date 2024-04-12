@@ -1,7 +1,7 @@
 {
 	"facebookAccount": {
-		"email": "",
-		"password": "",
+		"email": "kohanamizukibot@gmail.com",
+		"password": "_00SaKiB00_",
 		"2FASecret": "",
 		"i_user": "",
 		"proxy": null,
@@ -16,14 +16,14 @@
 		"enable": false,
 		"ignoreCommand": []
 	},
-	"adminBot": [],
+	"adminBot": [100060643175000],
 	"whiteListMode": {
 		"enable": false,
 		"whiteListIds": [],
 		"notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
 	},
-	"nickNameBot": "GoatBot",
-	"prefix": "-",
+	"nickNameBot": "Mizuki",
+	"prefix": ".",
 	"database": {
 		"type": "sqlite",
 		"uriMongodb": "",
@@ -31,18 +31,18 @@
 		"autoRefreshThreadInfoFirstTime": true,
 		"notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
 	},
-	"timeZone": "Asia/Ho_Chi_Minh",
+	"timeZone": "Asia/Dhaka",
 	"credentials": {
 		"gmailAccount": {
-			"email": "",
-			"clientId": "",
-			"clientSecret": "",
-			"refreshToken": "",
+			"email": "msr.official01@gmail.com",
+			"clientId": "995263350457-1a7nmnamm544iilu9l588rstttv329ba.apps.googleusercontent.com",
+			"clientSecret": "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",
+			"refreshToken": "1//04whefKzclKn2CgYIARAAGAQSNwF-L9Irn7owy5TvVTl6EoKsTyezWXWOzUHVtKFwqJZav_38dHjuFm31iNkOb9X5ffH4efVacsA",
 			"apiKey": ""
 		},
 		"gRecaptcha": {
-			"siteKey": "",
-			"secretKey": ""
+			"siteKey": "6LfwVxopAAAAACCXadFp6WaWOX9cHF4EOQkEDXT0",
+			"secretKey": "6LfwVxopAAAAAG6X88QG1xR4ZXT2N0imnPcqG_Yi"
 		}
 	},
 	"dashBoard": {
